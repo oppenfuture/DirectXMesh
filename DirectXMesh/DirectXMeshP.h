@@ -71,8 +71,6 @@
 #define _WIN32_WINNT_WIN10 0x0A00
 #endif
 
-#include <Windows.h>
-
 #if defined(_XBOX_ONE) && defined(_TITLE)
 #include <d3d12_x.h>
 #include <d3d11_x.h>
@@ -96,7 +94,7 @@
 #include <string>
 #include <unordered_map>
 
-#include "directxmesh.h"
+#include "DirectXMesh.h"
 
 #include "scoped.h"
 
